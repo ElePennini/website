@@ -22,15 +22,39 @@ h1 {
 
 h2 {
   font-size: 20px;
+  margin-bottom: 25px;
 }
 
 p {
   margin-left: 20px;
 }
 
-.navbar-light {
-  background-color: var(--primary-color);
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  font-family: var(--paragraph-font);
+  font-weight: bolder;
+  margin-top: 15px;
+  margin-right: 20px;
 }
 .home {
-  margin-top: 50px;
+  margin-top: 175px;
+}
+.more-button {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  font-family: var(--paragraph-font);
+  padding: 10px 20px;
+}
+
+.more-button:hover {
+  transform: scale(1.1);
+}
+
+a:hover {
+  color: white;
 }
