@@ -25,10 +25,6 @@ h2 {
   margin-bottom: 25px;
 }
 
-p {
-  margin-left: 20px;
-}
-
 a {
   color: white;
   text-decoration: none;
@@ -46,7 +42,7 @@ i {
   margin-right: 20px;
 }
 .home {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .more-button {
   display: flex;
@@ -54,12 +50,31 @@ i {
   text-align: center;
   font-family: var(--paragraph-font);
   padding: 10px 20px;
+  margin-top: 25px;
 }
 
 .more-button:hover {
   transform: scale(1.1);
 }
 
+.slide {
+  max-width: 600px;
+  height: auto;
+}
+#home-paragraph {
+  font-family: var(--paragraph-font);
+  font-size: 18px;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 a:hover {
   color: white;
+}
+
+@media (max-width: 415px) {
+  .home {
+    margin-top: 20px;
+  }
 }
