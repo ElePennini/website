@@ -35,6 +35,25 @@ i {
   font-size: 20px;
 }
 
+hr {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.about-page {
+  max-width: 1000px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.about-page h2 {
+  font-weight: bold;
+}
 .navbar {
   font-family: var(--paragraph-font);
   font-weight: bolder;
@@ -57,10 +76,6 @@ i {
   transform: scale(1.1);
 }
 
-.slide {
-  max-width: 600px;
-  height: auto;
-}
 #home-paragraph {
   font-family: var(--paragraph-font);
   font-size: 18px;
