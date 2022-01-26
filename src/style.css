@@ -25,9 +25,18 @@ h2 {
   margin-bottom: 25px;
 }
 
+p {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: lighter;
+}
 a {
   color: white;
   text-decoration: none;
+}
+a:hover {
+  color: white;
 }
 
 i {
@@ -43,31 +52,17 @@ hr {
   margin-bottom: 25px;
 }
 
+img {
+  border-radius: 20px;
+  border: 2px ridge #a99ba5;
+  box-shadow: 5px rgba(0, 0, 0, 0.5);
+}
 small {
   font-size: 10px;
   font-family: var(--paragraph-font);
 }
-.about-page {
-  max-width: 1000px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  margin-top: 80px;
-}
 
-.about-page h2 {
-  font-weight: bold;
-}
-.navbar {
-  font-family: var(--paragraph-font);
-  font-weight: bolder;
-  margin-top: 15px;
-  margin-right: 20px;
-}
-.home {
-  margin-top: 80px;
-}
-.more-button {
+button {
   display: flex;
   margin: 0 auto;
   text-align: center;
@@ -76,27 +71,33 @@ small {
   margin-top: 25px;
 }
 
-.more-button:hover {
+button:hover {
   transform: scale(1.1);
 }
 
-#home-paragraph {
+.navbar {
   font-family: var(--paragraph-font);
-  font-size: 18px;
-  max-width: 600px;
-  text-align: center;
-  margin: 0 auto;
+  font-weight: bolder;
+  margin-top: 15px;
+  margin-right: 20px;
 }
 
-.pictures {
+.page-content {
+  max-width: 1000px;
+  text-align: center;
   display: block;
   margin: 0 auto;
-  border-radius: 40px;
-  max-width: 100%;
+  margin-top: 80px;
 }
 
-a:hover {
-  color: white;
+.page-content h2 {
+  font-weight: bolder;
+}
+
+.project-heading {
+  font-size: 30px;
+  font-weight: 700px;
+  font-family: var(--heading-font);
 }
 
 @media (max-width: 415px) {
