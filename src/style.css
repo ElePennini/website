@@ -40,8 +40,13 @@ a:hover {
 }
 
 i {
-  padding: 10px 5px;
+  padding: 10px 15px;
   font-size: 20px;
+  color: black;
+}
+
+i:hover {
+  transform: scale(2.1);
 }
 
 hr {
@@ -94,10 +99,20 @@ button:hover {
   font-weight: bolder;
 }
 
-.project-heading {
-  font-size: 30px;
-  font-weight: 700px;
-  font-family: var(--heading-font);
+.social-links {
+  color: black;
+}
+
+.social-links:visited {
+  color: black;
+}
+
+.text-links {
+  color: black;
+}
+
+.text-links:hover {
+  color: #393e46;
 }
 
 @media (max-width: 415px) {
