@@ -10,7 +10,7 @@ h2 {
 }
 
 h1 {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 50px;
   margin-bottom: 10px;
 }
@@ -44,6 +44,7 @@ i {
 
 i:hover {
   transform: scale(2.1);
+  color: #a21232;
 }
 
 hr {
@@ -88,7 +89,11 @@ img {
   text-align: center;
   display: block;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 50px;
+}
+
+.projects {
+  margin-top: 50px;
 }
 
 .projects-container {
@@ -119,18 +124,17 @@ img {
   transform: scale(1.1);
 }
 
+.projects h2 {
+  font-size: 35px;
+  font-family: var(--heading-font);
+  font-weight: bolder;
+}
+
 .projects h3 {
   font-family: var(--heading-font);
   font-size: 20px;
   font-weight: bold;
   margin-top: 15px;
-}
-
-.projects h2 {
-  font-family: var(--heading-font);
-  font-size: 30px;
-  font-weight: bolder;
-  margin-bottom: 20px;
 }
 
 .projects p {
@@ -154,5 +158,5 @@ img {
 }
 
 .text-links:hover {
-  color: #393e46;
+  color: #a21232;
 }
