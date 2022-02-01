@@ -77,6 +77,10 @@ img {
   border-radius: 4px;
 }
 
+footer {
+  display: block;
+  text-align: center;
+}
 .navbar {
   font-family: var(--paragraph-font);
   font-weight: bolder;
@@ -90,10 +94,12 @@ img {
   display: block;
   margin: 0 auto;
   margin-top: 50px;
+  min-height: calc(100vh - 96px - 68px - 50px);
 }
 
 .projects {
   margin-top: 50px;
+  min-height: calc(100vh - 96px - 68px - 50px);
 }
 
 .projects-container {
@@ -124,12 +130,6 @@ img {
   transform: scale(1.1);
 }
 
-.projects h2 {
-  font-size: 35px;
-  font-family: var(--heading-font);
-  font-weight: bolder;
-}
-
 .projects h3 {
   font-family: var(--heading-font);
   font-size: 20px;
@@ -139,10 +139,6 @@ img {
 
 .projects p {
   margin-top: 0px;
-}
-
-.projects a {
-  color: red;
 }
 
 .social-links {
