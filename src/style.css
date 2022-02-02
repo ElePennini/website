@@ -66,12 +66,12 @@ small {
 }
 
 button {
-  display: flex;
+  display: block;
   margin: 0 auto;
   text-align: center;
   font-family: var(--paragraph-font);
-  padding: 10px 20px;
   margin-top: 25px;
+  padding: 30px 70px;
 }
 
 button:hover {
@@ -160,6 +160,13 @@ footer {
 
 .text-links:hover {
   color: #605a56;
+}
+
+#sketch {
+  width: 350px;
+  height: "auto";
+  display: flex;
+  margin: 0 auto;
 }
 
 #linkedin:hover {
