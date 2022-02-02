@@ -71,7 +71,6 @@ button {
   text-align: center;
   font-family: var(--paragraph-font);
   margin-top: 25px;
-  padding: 30px 70px;
 }
 
 button:hover {
@@ -169,27 +168,46 @@ footer {
   margin: 0 auto;
 }
 
-#linkedin:hover {
+#linkedin {
   color: #0a66c2;
   font-weight: bold;
 }
+#linkedin:hover {
+  text-decoration: underline;
+}
 
-#twitter:hover {
+#twitter {
   color: #1d9bf0;
   font-weight: bold;
 }
 
-#goodreads:hover {
+#twitter:hover {
+  text-decoration: underline;
+}
+
+#goodreads {
   color: #5b4a3c;
   font-weight: bold;
 }
 
-#git:hover {
+#goodreads:hover {
+  text-decoration: underline;
+}
+
+#git {
   color: #24292f;
   font-weight: bold;
 }
 
-#mail:hover {
+#git:hover {
+  text-decoration: underline;
+}
+
+#mail {
   color: #b92b24;
   font-weight: bold;
+}
+
+#mail:hover {
+  text-decoration: underline;
 }
