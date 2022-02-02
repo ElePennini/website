@@ -259,6 +259,9 @@ footer {
     margin-top: 30px;
   }
 
+  .navbar {
+    margin-top: 5px;
+  }
   i {
     font-size: 15px;
     padding: 10px 5px;
