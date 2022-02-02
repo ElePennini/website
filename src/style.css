@@ -21,6 +21,12 @@ h2 {
   margin-bottom: 25px;
 }
 
+h4 {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: var(--heading-font);
+}
+
 p {
   margin-top: 15px;
   margin-bottom: 0px;
@@ -44,7 +50,6 @@ i {
 
 i:hover {
   transform: scale(2.1);
-  color: #a21232;
 }
 
 hr {
@@ -154,5 +159,30 @@ footer {
 }
 
 .text-links:hover {
-  color: #a21232;
+  color: #605a56;
+}
+
+#linkedin:hover {
+  color: #0a66c2;
+  font-weight: bold;
+}
+
+#twitter:hover {
+  color: #1d9bf0;
+  font-weight: bold;
+}
+
+#goodreads:hover {
+  color: #5b4a3c;
+  font-weight: bold;
+}
+
+#git:hover {
+  color: #24292f;
+  font-weight: bold;
+}
+
+#mail:hover {
+  color: #b92b24;
+  font-weight: bold;
 }
