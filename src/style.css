@@ -257,4 +257,9 @@ footer {
   .projects {
     margin-top: 30px;
   }
+
+  i {
+    font-size: 15px;
+    padding: 10px 5px;
+  }
 }
