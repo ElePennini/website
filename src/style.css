@@ -215,7 +215,7 @@ button:hover {
   color: white;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 359px) {
   .navbar {
     margin-top: 0px;
   }
