@@ -146,7 +146,7 @@ a:visited {
 }
 
 i:hover {
-  transform: scale(2.1);
+  transform: scale(1.1);
 }
 
 button:hover {
@@ -215,15 +215,9 @@ button:hover {
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 360px) {
   .navbar {
     margin-top: 0px;
-  }
-
-  .page-content {
-    margin-top: 15px;
-    margin-left: 30px;
-    margin-right: 30px;
   }
 
   .projects {
@@ -241,18 +235,18 @@ button:hover {
     padding: 10px 5px;
   }
   h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   h2 {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   h3 {
     font-size: 5px;
   }
   h4 {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   p {
@@ -260,6 +254,6 @@ button:hover {
   }
 
   #sketch {
-    width: 150px;
+    max-width: 100px;
   }
 }
