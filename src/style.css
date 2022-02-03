@@ -3,6 +3,24 @@
   --paragraph-font: "Roboto", sans-serif;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: var(--paragraph-font);
+  margin-top: 25px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+}
+
 h1,
 h2 {
   font-family: var(--heading-font);
@@ -27,34 +45,6 @@ h4 {
   font-family: var(--heading-font);
 }
 
-p {
-  margin-top: 15px;
-  margin-bottom: 0px;
-  text-align: center;
-  font-weight: lighter;
-  font-size: 18px;
-}
-a {
-  color: black;
-  text-decoration: none;
-}
-a:hover {
-  color: black;
-}
-
-a:visited {
-  text-decoration: none;
-}
-i {
-  padding: 10px 15px;
-  font-size: 20px;
-  color: black;
-}
-
-i:hover {
-  transform: scale(2.1);
-}
-
 hr {
   width: 60%;
   margin-left: auto;
@@ -63,31 +53,29 @@ hr {
   margin-bottom: 25px;
 }
 
-small {
-  font-size: 10px;
-  font-family: var(--paragraph-font);
-}
-
-button {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  font-family: var(--paragraph-font);
-  margin-top: 25px;
-}
-
-button:hover {
-  transform: scale(1.1);
+i {
+  padding: 10px 15px;
+  font-size: 20px;
+  color: black;
 }
 
 img {
   border-radius: 4px;
 }
 
-footer {
-  display: block;
+p {
+  margin-top: 15px;
+  margin-bottom: 0px;
   text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
 }
+
+small {
+  font-size: 10px;
+  font-family: var(--paragraph-font);
+}
+
 .navbar {
   font-family: var(--paragraph-font);
   font-weight: bolder;
@@ -109,22 +97,6 @@ footer {
   min-height: calc(100vh - 96px - 68px - 50px);
 }
 
-.projects-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.project-container {
-  text-align: center;
-  width: 500px;
-  padding: 16px;
-}
-
-.project-pic {
-  width: 100%;
-  height: 100%;
-}
 .project-card {
   background-color: #f8f9fa;
   border-radius: 11px;
@@ -133,8 +105,21 @@ footer {
   margin: 30px;
 }
 
-.project-card:hover {
-  transform: scale(1.1);
+.project-container {
+  text-align: center;
+  width: 500px;
+  padding: 16px;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-pic {
+  width: 100%;
+  height: 100%;
 }
 
 .projects h3 {
@@ -152,18 +137,48 @@ footer {
   color: black;
 }
 
+a:hover {
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+i:hover {
+  transform: scale(2.1);
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+.project-card:hover {
+  transform: scale(1.1);
+}
+
 .social-links:visited {
   color: black;
 }
 
-.text-links {
-  color: black;
+#linkedin:hover {
+  text-decoration: underline;
 }
 
-.text-links:hover {
-  color: #605a56;
+#twitter:hover {
+  text-decoration: underline;
 }
 
+#goodreads:hover {
+  text-decoration: underline;
+}
+
+#git:hover {
+  text-decoration: underline;
+}
+
+#mail:hover {
+  text-decoration: underline;
+}
 #sketch {
   width: 350px;
   height: "auto";
@@ -175,17 +190,10 @@ footer {
   color: #0a66c2;
   font-weight: bold;
 }
-#linkedin:hover {
-  text-decoration: underline;
-}
 
 #twitter {
   color: #1d9bf0;
   font-weight: bold;
-}
-
-#twitter:hover {
-  text-decoration: underline;
 }
 
 #goodreads {
@@ -193,17 +201,9 @@ footer {
   font-weight: bold;
 }
 
-#goodreads:hover {
-  text-decoration: underline;
-}
-
 #git {
   color: #24292f;
   font-weight: bold;
-}
-
-#git:hover {
-  text-decoration: underline;
 }
 
 #mail {
@@ -211,19 +211,13 @@ footer {
   font-weight: bold;
 }
 
-#mail:hover {
-  text-decoration: underline;
-}
-
 #more-button {
   color: white;
 }
 
 @media (max-width: 768px) {
-  .project-card {
-    min-height: 300px;
-    margin: 15px;
-    padding-bottom: 10px;
+  .navbar {
+    margin-top: 0px;
   }
 
   .page-content {
@@ -232,16 +226,26 @@ footer {
     margin-right: 30px;
   }
 
-  #sketch {
-    width: 150px;
+  .projects {
+    margin-top: 30px;
+    min-height: 450px;
+    margin-bottom: 20px;
   }
-
+  .project-card {
+    min-height: 300px;
+    margin: 15px;
+    padding-bottom: 10px;
+  }
+  i {
+    font-size: 15px;
+    padding: 10px 5px;
+  }
   h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   h3 {
@@ -255,16 +259,7 @@ footer {
     font-size: 13px;
   }
 
-  .projects {
-    margin-top: 30px;
-    min-height: 450px;
-    margin-bottom: 20px;
-  }
-  .navbar {
-    margin-top: 0px;
-  }
-  i {
-    font-size: 15px;
-    padding: 10px 5px;
+  #sketch {
+    width: 150px;
   }
 }
