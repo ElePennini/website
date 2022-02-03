@@ -72,6 +72,7 @@ p {
 }
 
 small {
+  display: block;
   font-size: 10px;
   font-family: var(--paragraph-font);
   margin-top: 0px;
@@ -260,6 +261,10 @@ button:hover {
 
   p {
     font-size: 10px;
+  }
+
+  small {
+    font-size: 7px;
   }
 
   #sketch {
